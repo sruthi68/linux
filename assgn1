@@ -13,7 +13,9 @@
     mkdir LinuxOS
     
 5.	Create a text file, “About” in LinuxOS and write something about Linux operating system.
-    touch About.txt
+    cd LinuxOS
+    About.txt
+    vi About.txt
 
 6.	Rename the directory “LinuxOS” into “Linux”.
     mv LinuxOS Linux
@@ -21,16 +23,10 @@
 7.	Print the path and access permission of Linux directory.
     pwd
     ls -i
-    /home/sruthi/Devops
-    total 4
-    -rw-rw-r--  1 sruthi sruthi    0 Jul 3 00:56 About.txt
-    drwxrwxr-x  2 sruthi sruthi 4096 Jul 3 00:55 Linux
-    -rw-rw-r--  1 sruthi sruthi    0 Jul 3 00:55 LinuxCommands
-
-
+   
 8.	Change the working directory as “Devops” and create a text file “about” and write something about Devops in it.
     cd Devops
-    touch about.txt
+    vi about.txt
     
 9.	List the files in “Devops”
     ls
